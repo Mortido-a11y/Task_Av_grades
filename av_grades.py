@@ -12,5 +12,6 @@ av_grades = {students_list[0] : av_grades[0],
              students_list[2] : av_grades[2],
              students_list[3] : av_grades[3],
              students_list[4] : av_grades[4]}
+# лучше использовать av_grades = dict(zip(students_list, av_grades))
 print(av_grades)
 
